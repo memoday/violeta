@@ -1,0 +1,26 @@
+#bodywrap {margin: 0 auto;}
+
+html, p, body {
+    background-color: darkgray;
+    margin: auto;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 0;
+	background: blue;
+}
+
+.menu {
+    color: brown;
+    float: right;
+}
+
+.menu a{
+    padding: 0 15px;
+    display: block;
+}
