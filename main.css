@@ -1,14 +1,13 @@
-#bodywrap {margin: 0 auto;}
-
 html, body {
     background-color: #424549;
     margin: auto;
     height: 100%;
     padding: 0px;
+    position: relative;
 }
 
 .header {
-    width: 1170px;
+    max-width: 1170px;
     height: 80px;
     margin: 0px auto;
     padding: 0px;
@@ -62,11 +61,15 @@ footer{
     padding-top: 1.5%;
 }
 
-#body-wrapper {
-    min-height: 100%;
+.timer-content {
+    vertical-align: middle;
+    margin-top: 10%;
     position: relative;
+
 }
-#body-content {
-    margin-top: 100px;
-    padding-bottom: 99999px;
+.bodywrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
 }
