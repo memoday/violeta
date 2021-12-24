@@ -37,22 +37,26 @@ test.addEventListener('click', function(){
 
       if (time == 7199) {
         start.play();
-        document.getElementById('timer').style.color = 'red';
+        document.getElementById('timer').style.color = 'white';
       }
       if (time == 6299 || time == 4499 || time == 2699 || time == 899) {
         oneFive.play();
+        document.getElementById('timer').style.color = 'white';
       }
       if (time == 5399 || time == 3599 || time == 1799) {
         threeZero.play();
+        document.getElementById('timer').style.color = 'white';
       }
       if (time == 6309 || time == 4509 || time == 2709 || time == 909) {
         oneFiveOneZero.play();
+        document.getElementById('timer').style.color = 'red';
       }
       if (time == 6329 || time == 4529 || time == 2729 || time == 929) {
         oneFiveThreeZero.play();
       }
       if (time == 5409 || time == 3609 || time == 1809) {
         threeZeroOneZero.play();
+        document.getElementById('timer').style.color = 'red';
       }
       if (time == 5429 || time == 3629 || time == 1829) {
         threeZeroThreeZero.play();
@@ -62,6 +66,7 @@ test.addEventListener('click', function(){
       }
       if (time == 9){
         endOneZero.play();
+        document.getElementById('timer').style.color = 'red';
       }
       if (time < 0) {
         clearInterval(x); //setInterval() 실행을 끝냄
