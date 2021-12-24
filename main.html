@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="date.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="uchat.css">
     <script src="date.js"></script>
     <script src="timer.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/violeta.png">
 
     <title>재획타이머 - 비올레타</title>
 </head>
@@ -22,15 +25,22 @@
                 </ul>
             </nav>
         </div>
-        <div class="timer-set-content">
-            <div class="test"></div>
+    <div class='uchat'>
+        <script async src="//client.uchat.io/uchat.js"></script>
+        <u-chat room='violeta' style="display:inline-block; width: 230px;; height:600px;"></u-chat>
+    </div>
 
-        </div>
         <div class="timer-content">
             <div class="date">
+                <div class="dateTop">
                 <div id="date" class="date"></div>
                 <div id="time" class="time"></div>
                 <div id='timer' class='timer'></div>
+                </div>
+                <div class="dateBottom">
+                <input type="button" class='startBtn' id='test' value="시작하기"></button>
+                <script src="timer.js"></script>
+                </div>
             </div>
         </div>
     </div>
