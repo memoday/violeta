@@ -1,7 +1,7 @@
-var test = document.getElementById('test');
-var time = 7200; //기준시간 작성
-var min = ""; //분
-var sec = ""; //초
+var test = document.getElementById('startBtn');
+var time = 7200;
+var min = ""; 
+var sec = ""; 
 var start = new Audio('./sounds/start.m4a')
 var oneFive = new Audio('./sounds/15.m4a')
 var threeZero = new Audio('./sounds/30.m4a')
@@ -18,8 +18,8 @@ test.addEventListener('click', function(){
   if ( bool == 0){
     var x = setInterval(function() {
 
-      min = parseInt(time/60); //몫을 계산
-      sec = time%60; //나머지를 계산
+      min = parseInt(time/60);
+      sec = time%60;
 
       document.getElementById("timer").innerHTML = min + "분" + sec + "초";
       time--;
@@ -69,7 +69,7 @@ test.addEventListener('click', function(){
         document.getElementById('timer').style.color = 'red';
       }
       if (time < 0) {
-        clearInterval(x); //setInterval() 실행을 끝냄
+        clearInterval(x);
         end.play();
         document.getElementById("timer").innerHTML = "수고하셨습니다.";
         document.getElementById('timer').style.backgroundColor = 'red';

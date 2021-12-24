@@ -20,9 +20,10 @@
 }
 
 .dateTop{
-    margin-bottom: 120px;
+    margin-top: -80px;
+    margin-bottom: 80px;
 }
 
 .dateBottom{
-
+    margin-bottom: 30px;
 }
