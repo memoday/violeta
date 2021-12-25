@@ -6,6 +6,12 @@ html, body {
     position: relative;
 }
 
+.bodywrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
 .header {
     max-width: 1170px;
     height: 80px;
@@ -62,14 +68,6 @@ footer{
 
 .timer-content {
     vertical-align: middle;
-    margin-top: 10%;
-
-
-}
-.bodywrapper {
-    height: 100%;
-    width: 100%;
-    position: relative;
-
+    margin-top: 5%;
 }
 

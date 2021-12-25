@@ -2,7 +2,6 @@
     text-align: center;
     color: white;
     font-size: 30px;
-    margin-top: 0px;
 }
 
 #date{
@@ -20,7 +19,7 @@
 }
 
 .dateTop{
-    margin-top: -80px;
+    margin-top: 0px;
     margin-bottom: 80px;
 }
 
