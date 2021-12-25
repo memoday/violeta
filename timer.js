@@ -2,16 +2,16 @@ var test = document.getElementById('startBtn');
 var time = 7200;
 var min = ""; 
 var sec = ""; 
-var start = new Audio('./sounds/start.m4a')
-var oneFive = new Audio('./sounds/15.m4a')
-var threeZero = new Audio('./sounds/30.m4a')
-var oneFiveOneZero = new Audio('./sounds/1510.m4a')
-var oneFiveThreeZero = new Audio('./sounds/1530.m4a')
-var threeZeroOneZero = new Audio('./sounds/3010.m4a')
-var threeZeroThreeZero = new Audio('./sounds/3030.m4a')
-var end = new Audio('./sounds/End.m4a')
-var endOneZero = new Audio('./sounds/End10.m4a')
-var endThreeZero = new Audio('./sounds/End30.m4a')
+var start = new Audio('./sounds/start.mp3')
+var oneFive = new Audio('./sounds/15.mp3')
+var threeZero = new Audio('./sounds/30.mp3')
+var oneFiveOneZero = new Audio('./sounds/1510.mp3')
+var oneFiveThreeZero = new Audio('./sounds/1530.mp3')
+var threeZeroOneZero = new Audio('./sounds/3010.mp3')
+var threeZeroThreeZero = new Audio('./sounds/3030.mp3')
+var end = new Audio('./sounds/End.mp3')
+var endOneZero = new Audio('./sounds/End10.mp3')
+var endThreeZero = new Audio('./sounds/End30.mp3')
 var bool = 0;
 
 test.addEventListener('click', function(){
@@ -36,7 +36,7 @@ test.addEventListener('click', function(){
 //0분 0 30분 알림
 
       if (time == 7199) {
-        start.play();
+        oneFiveThreeZero.play();
         document.getElementById('timer').style.color = 'white';
       }
       if (time == 6299 || time == 4499 || time == 2699 || time == 899) {
