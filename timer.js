@@ -36,7 +36,7 @@ test.addEventListener('click', function(){
 //0분 0 30분 알림
 
       if (time == 7199) {
-        oneFiveThreeZero.play();
+        start.play();
         document.getElementById('timer').style.color = 'white';
       }
       if (time == 6299 || time == 4499 || time == 2699 || time == 899) {
